@@ -2,10 +2,10 @@
   "name": "backend",
   "version": "1.0.0",
   "description": "Algonauts Backend",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "start": "node index.js",
-    "start:prod": "npm run build && node build/index.js",
+    "start": "node server.js",
+    "start:prod": "npm run build && node build/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Prathamesh k",
